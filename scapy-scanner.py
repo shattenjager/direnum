@@ -1,8 +1,8 @@
 from scapy.all import *
 
-interface = "<NET>" # eth0, eth1, lun0 etc.
-ip_range = "NN.NN.X.X/24" # E.g.: 192.168.X.X/24
-broadcastMac = "ff:ff:ff:ff:ff:ff"
+interface: str = "<NET>" # eth0, eth1, tun0 etc.
+ip_range: str = "NN.NN.X.X/24" # E.g.: 192.168.X.X/24
+broadcastMac: str = "ff:ff:ff:ff:ff:ff"
 
 packet = Ether(dst=broadcastMac)/ARP(pdst = ip_range) 
 
