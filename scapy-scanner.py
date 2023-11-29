@@ -1,7 +1,7 @@
 from scapy.all import *
 
 interface = "eth0"
-ip_range = "10.10.X.X/24"
+ip_range = "NN.NN.X.X/24"
 broadcastMac = "ff:ff:ff:ff:ff:ff"
 
 packet = Ether(dst=broadcastMac)/ARP(pdst = ip_range) 
