@@ -1,6 +1,6 @@
 from scapy.all import *
 
-interface: str = "<NET>" # eth0, eth1, lun0 etc.
+interface: str = "<NET>" # eth0, eth1, tun0 etc.
 ip_range: str = "NN.NN.X.X/24" # E.g.: 192.168.X.X/24
 broadcastMac: str = "ff:ff:ff:ff:ff:ff"
 
