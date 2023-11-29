@@ -1,2 +1,2 @@
-# direnum.py
-Python script for directory enumeration
+# dpyhackzstuff
+Python scripts for testing stuff, more to come!
