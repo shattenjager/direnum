@@ -1,9 +1,9 @@
 import sys
 import socket
-import pyfiglet
+import pyfiglet # This is just for the banner :-)
 
 
-ascii_banner = pyfiglet.figlet_format("Thanks TryHackMe \n Python 4 Pentesters \nPort Scanner")
+ascii_banner = pyfiglet.figlet_format("My First \n Python \nPort Scanner")
 print(ascii_banner)
 
 
@@ -34,7 +34,7 @@ for port in ports:
     
 
 if open_ports: 
-  print ("Open Ports are: ") 
+  print ("These are the open Ports: ") 
   print (sorted(open_ports)) 
 else: 
-  print ("Looks like no ports are open :(")
+  print ("No ports are open :(")
